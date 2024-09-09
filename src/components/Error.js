@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Browse = () => {
+const Error = () => {
   return (
     <div>
-      hello
+      
     </div>
   )
 }
 
-export default Browse
+export default Error
