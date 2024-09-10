@@ -1,0 +1,95 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "name": "Drishyam",
+        "trailer_url": "https://www.youtube.com/watch?v=AuuX2j14NBg",
+        "director": "Nishikant Kamat",
+        "theme": "Suspense, family, crime",
+        "actors": ["Ajay Devgn", "Tabu", "Shriya Saran"],
+        "poster_URL":"https://tse4.mm.bing.net/th?id=OIP.rej-MCZfX01Kfg1tjOO1fAHaKq&pid=Api&P=0&h=180"
+      },
+      {
+        "id": 2,
+        "name": "Kahaani",
+        "trailer_url": "https://www.youtube.com/watch?v=jHjxcO9j6Hk",
+        "director": "Sujoy Ghosh",
+        "theme": "Mystery, revenge",
+        "actors": ["Vidya Balan", "Parambrata Chatterjee", "Nawazuddin Siddiqui"],
+        "poster_URL":"https://tse2.mm.bing.net/th?id=OIP.KrZB0sxWyVxQ4xj1u32WRwHaKs&pid=Api&P=0&h=180"
+      },
+      {
+        "id": 3,
+        "name": "Andhadhun",
+        "trailer_url": "https://www.youtube.com/watch?v=2iVYI99VGaw",
+        "director": "Sriram Raghavan",
+        "theme": "Dark comedy, crime, thriller",
+        "actors": ["Ayushmann Khurrana", "Tabu", "Radhika Apte"],
+        "poster_URL":"https://tse2.mm.bing.net/th?id=OIP.gmCNACrtoYcSJntcGMDjOgHaKs&pid=Api&P=0&h=180"
+      },
+      {
+        "id": 4,
+        "name": "Talaash",
+        "trailer_url": "https://www.youtube.com/watch?v=8Lz_65VbrFw",
+        "director": "Reema Kagti",
+        "theme": "Psychological thriller, mystery",
+        "actors": ["Aamir Khan", "Kareena Kapoor", "Rani Mukerji"],
+        "poster_URL":"https://tse2.mm.bing.net/th?id=OIP.mxdL_qG2j40Zcelj8i-xxgHaKv&pid=Api&P=0&h=180"
+      },
+      {
+        "id": 5,
+        "name": "Darr",
+        "trailer_url": "https://www.youtube.com/watch?v=DFoKnlp2ReM",
+        "director": "Yash Chopra",
+        "theme": "Psychological thriller, obsession",
+        "actors": ["Shah Rukh Khan", "Juhi Chawla", "Sunny Deol"],
+        "poster_URL":"https://tse2.mm.bing.net/th?id=OIP.TxMb5LiWy44yaQSa_EtxpQHaKH&pid=Api&P=0&h=180"
+      },
+      {
+        "id": 6,
+        "name": "Badla",
+        "trailer_url": "https://www.youtube.com/watch?v=mSlgu8AQAd4",
+        "director": "Sujoy Ghosh",
+        "theme": "Mystery, courtroom drama",
+        "actors": ["Amitabh Bachchan", "Taapsee Pannu", "Amrita Singh"],
+        "poster_URL":"https://tse4.mm.bing.net/th?id=OIP.9LqqMl_oCFnj9fJC79lTFQHaLH&pid=Api&P=0&h=180"
+      },
+      {
+        "id": 7,
+        "name": "NH10",
+        "trailer_url": "https://www.youtube.com/watch?v=7g5PrUytTLw",
+        "director": "Navdeep Singh",
+        "theme": "Survival thriller, social issues",
+        "actors": ["Anushka Sharma", "Neil Bhoopalam", "Darshan Kumar"],
+        "poster_URL":"https://tse2.mm.bing.net/th?id=OIP.sNKCBwGefV5wMLTS-_0C7gHaIN&pid=Api&P=0&h=180"
+      },
+      {
+        "id": 8,
+        "name": "Raat Akeli Hai",
+        "trailer_url": "https://www.youtube.com/watch?v=oZPmUjg24hw",
+        "director": "Honey Trehan",
+        "theme": "Crime, murder mystery",
+        "actors": ["Nawazuddin Siddiqui", "Radhika Apte", "Shweta Tripathi"],
+        "poster_URL":"https://tse2.mm.bing.net/th?id=OIP.N2kiwDHAgV2CJ4J9OfRCugHaLI&pid=Api&P=0&h=180"
+      },
+      {
+        "id": 9,
+        "name": "Wazir",
+        "trailer_url": "https://www.youtube.com/watch?v=oCOiwKNMGlA",
+        "director": "Bejoy Nambiar",
+        "theme": "Revenge, mystery",
+        "actors": ["Amitabh Bachchan", "Farhan Akhtar", "Aditi Rao Hydari"],
+        "poster_URL":"https://tse4.mm.bing.net/th?id=OIP._clyyjPylwNYaFJtofsecQHaKN&pid=Api&P=0&h=180"
+      },
+      {
+        "id": 10,
+        "name": "Ugly",
+        "trailer_url": "https://www.youtube.com/watch?v=MiY4WjUlkwQ",
+        "director": "Anurag Kashyap",
+        "theme": "Dark thriller, child kidnapping",
+        "actors": ["Rahul Bhat", "Ronit Roy", "Tejaswini Kolhapure"],
+        "poster_URL":"https://tse2.mm.bing.net/th?id=OIP.MZQcgXCOZFEMfo0Frj7ezQHaKs&pid=Api&P=0&h=180"
+      }
+    ]
+  }
+  
