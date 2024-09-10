@@ -6,17 +6,20 @@ import Header from './components/Header';
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Browse from './components/Browse';
 import Error from './components/Error';
+import { Provider } from 'react-redux';
+import appStore from './components/utils/appStore'
 
 const Structure  = () =>{
   return(
-    <div>
-      <Header />
-      <Outlet />
-    </div>
+        <div>
+          <Header />
+          <Outlet />
+        </div>      
   )
 }
 
-const appRouter = createBrowserRouter([
+
+export const appRouter = createBrowserRouter([
   {
       path:"/",
       Element:<Structure />,
@@ -34,9 +37,13 @@ const appRouter = createBrowserRouter([
   }
 ])
 
+// export default Structure;
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <RouterProvider router={appRouter}/>
+  <Provider store={appStore}>   
+    <RouterProvider router={appRouter}/>
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

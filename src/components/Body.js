@@ -1,14 +1,32 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Header from './Header'
 import { auth } from './utils/firebase'
-import { createUserWithEmailAndPassword,signInWithEmailAndPassword } from "firebase/auth";
+import {addUser, removeUser} from './utils/userSlice'
+import { createUserWithEmailAndPassword,onAuthStateChanged,signInWithEmailAndPassword } from "firebase/auth";
 import { Background_URL } from './utils/constants'
 import checkValidData from './utils/validate';
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 const Body = () => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   const [isSignIn,setisSignIn] = useState(true);
   const [errorMessage,seterrorMessage] = useState(null)
+
+  useEffect(()=>{
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        const {uid,email} = user;
+        dispatch(addUser({uid:uid,email:email}))
+        navigate('/browse')
+      } else {
+        dispatch(removeUser())
+        navigate('/')
+      }
+    });
+  },[])
 
   const manageSignInSignOut = () =>{
     setisSignIn(!isSignIn);

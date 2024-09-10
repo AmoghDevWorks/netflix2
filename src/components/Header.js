@@ -4,7 +4,7 @@ import { Logo_URL } from './utils/constants'
 const Header = () => {
 
   return (
-    <div className='w-screen h-2/12 absolute'>
+    <div className='w-screen h-2/12 absolute bg-gradient-to-b from-black'>
       <img className='h-16' src={Logo_URL} alt='logo'></img>
     </div>
   )
