@@ -28,15 +28,15 @@ const HorrorMovies = {
         "actors": ["Anushka Sharma", "Parambrata Chatterjee", "Rajat Kapoor"],
         "poster_URL":"https://tse2.mm.bing.net/th?id=OIP.iPSL-GYZRC9Jm42f91KREQAAAA&pid=Api&P=0&h=180"
       },
-      {
-        "id": 4,
-        "name": "Bhoot: Part One - The Haunted Ship",
-        "trailer_url": "https://www.youtube.com/watch?v=0mfALkhpfxI",
-        "director": "Bhanu Pratap Singh",
-        "theme": "Haunting, ghost ship, thriller",
-        "actors": ["Vicky Kaushal", "Bhumi Pednekar", "Ashutosh Rana"],
-        "poster_URL":"https://tse1.mm.bing.net/th?id=OIP.JrlacZDbivvBNdXnudBmogHaKs&pid=Api&P=0&h=180"
-      },
+      // {
+      //   "id": 4,
+      //   "name": "Bhoot: Part One - The Haunted Ship",
+      //   "trailer_url": "https://www.youtube.com/watch?v=0mfALkhpfxI",
+      //   "director": "Bhanu Pratap Singh",
+      //   "theme": "Haunting, ghost ship, thriller",
+      //   "actors": ["Vicky Kaushal", "Bhumi Pednekar", "Ashutosh Rana"],
+      //   "poster_URL":"https://tse1.mm.bing.net/th?id=OIP.JrlacZDbivvBNdXnudBmogHaKs&pid=Api&P=0&h=180"
+      // },
       {
         "id": 5,
         "name": "1920",

@@ -5,7 +5,7 @@ import SecondaryContainer from './SecondaryContainer'
 
 const Browse = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Header />
       <MainContainer />
       <SecondaryContainer />

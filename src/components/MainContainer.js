@@ -11,7 +11,7 @@ const MainContainer = () => {
   const {name,theme,actors,trailer_url,director,id} = movie;
 
   return (
-    <div className='w-screen h-screen relative bg-gradient-to-r from-black'>
+    <div className='w-full h-screen relative bg-gradient-to-r from-black'>
       <VideoTitle name={name} theme={theme} actors={actors} director={director} id={id}/>
       <VideoBackground trailer_url={trailer_url}/>
     </div>

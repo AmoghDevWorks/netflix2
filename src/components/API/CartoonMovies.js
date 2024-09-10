@@ -3,7 +3,7 @@ const CartoonMovies = {
     "movies": [
       {
         "id": 1,
-        "name": "Chhota Bheem: Himalayan Adventure",
+        "name": "Chhota Bheem",
         "trailer_url": "https://www.youtube.com/watch?v=K2hZb23QSTk",
         "director": "Rajiv Chilaka",
         "theme": "Animation, adventure",
@@ -17,17 +17,17 @@ const CartoonMovies = {
         "director": "Vikram Veturi",
         "theme": "Animation, mythology",
         "actors": ["Rajesh Vivek", "Vivek Mushran", "Shruti Marathe"],
-        "poster_URL":""
-      },
-      {
-        "id": 3,
-        "name": "Koochie Koochie Hota Hai",
-        "trailer_url": "https://www.youtube.com/watch?v=kpjBQ8D9QBo",
-        "director": "Kunal Shivdasani",
-        "theme": "Animation, comedy",
-        "actors": ["Shah Rukh Khan", "Kajol", "Sanjeev Kumar"],
         "poster_URL":"https://tse1.mm.bing.net/th?id=OIP.hd2WlDjCdKcPukg5l_8dMgHaKq&pid=Api&P=0&h=180"
       },
+      // {
+      //   "id": 3,
+      //   "name": "Koochie Koochie Hota Hai",
+      //   "trailer_url": "https://www.youtube.com/watch?v=kpjBQ8D9QBo",
+      //   "director": "Kunal Shivdasani",
+      //   "theme": "Animation, comedy",
+      //   "actors": ["Shah Rukh Khan", "Kajol", "Sanjeev Kumar"],
+      //   "poster_URL":"https://tse1.mm.bing.net/th?id=OIP.hd2WlDjCdKcPukg5l_8dMgHaKq&pid=Api&P=0&h=180"
+      // },
       {
         "id": 4,
         "name": "Little Singham",
@@ -39,7 +39,7 @@ const CartoonMovies = {
       },
       {
         "id": 5,
-        "name": "Motu Patlu: King of Kings",
+        "name": "Motu Patlu",
         "trailer_url": "https://www.youtube.com/watch?v=KQ87d2mC2q8",
         "director": "Jaswant Hiranandani",
         "theme": "Animation, comedy",
@@ -64,18 +64,18 @@ const CartoonMovies = {
         "actors": ["Rachael Lillis", "Eric Stuart", "Veronica Taylor"],
         "poster_URL":"https://tse2.mm.bing.net/th?id=OIP.clL55hLM2WOTUI6h0kifNgHaKn&pid=Api&P=0&h=180"
       },
-      {
-        "id": 8,
-        "name": "Shiva: The Superhero",
-        "trailer_url": "https://www.youtube.com/watch?v=MO1J6S4x1O4",
-        "director": "Rajiv Chilaka",
-        "theme": "Animation, superhero",
-        "actors": ["Jubin Nautiyal", "Siddharth Nigam", "Vaishnavi Mahant"],
-        "poster_URL":"https://tse4.mm.bing.net/th?id=OIP.yV2B2Mk5BOgbtaIJagaG8QAAAA&pid=Api&P=0&h=180"
-      },
+      // {
+      //   "id": 8,
+      //   "name": "Shiva: The Superhero",
+      //   "trailer_url": "https://www.youtube.com/watch?v=MO1J6S4x1O4",
+      //   "director": "Rajiv Chilaka",
+      //   "theme": "Animation, superhero",
+      //   "actors": ["Jubin Nautiyal", "Siddharth Nigam", "Vaishnavi Mahant"],
+      //   "poster_URL":"https://tse4.mm.bing.net/th?id=OIP.yV2B2Mk5BOgbtaIJagaG8QAAAA&pid=Api&P=0&h=180"
+      // },
       {
         "id": 9,
-        "name": "Doraemon: Nobita's Diary on the Creation of the World",
+        "name": "Doraemon",
         "trailer_url": "https://www.youtube.com/watch?v=fXg7sT8z9Fg",
         "director": "Shinnosuke Yakuwa",
         "theme": "Animation, adventure",

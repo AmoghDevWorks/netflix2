@@ -46,15 +46,15 @@ const ComedyMovies = {
         "actors": ["Aamir Khan", "Salman Khan", "Raveena Tandon"],
         "poster_URL":"https://tse3.mm.bing.net/th?id=OIP.QE86btscIYot_F9weGmVHAHaJ9&pid=Api&P=0&h=180"
       },
-      {
-        "id": 6,
-        "name": "Golmaal: Fun Unlimited",
-        "trailer_url": "https://www.youtube.com/watch?v=Iq4bV-Y8Z7A",
-        "director": "Rohit Shetty",
-        "theme": "Misunderstandings and chaos",
-        "actors": ["Ajay Devgn", "Sharman Joshi", "Tusshar Kapoor"],
-        "poster_URL":"https://tse1.mm.bing.net/th?id=OIP.0bdV10tRboJTRAMNVXD9qAHaKI&pid=Api&P=0&h=180"
-      },
+      // {
+      //   "id": 6,
+      //   "name": "Golmaal: Fun Unlimited",
+      //   "trailer_url": "https://www.youtube.com/watch?v=Iq4bV-Y8Z7A",
+      //   "director": "Rohit Shetty",
+      //   "theme": "Misunderstandings and chaos",
+      //   "actors": ["Ajay Devgn", "Sharman Joshi", "Tusshar Kapoor"],
+      //   "poster_URL":"https://tse1.mm.bing.net/th?id=OIP.0bdV10tRboJTRAMNVXD9qAHaKI&pid=Api&P=0&h=180"
+      // },
       {
         "id": 7,
         "name": "Bhool Bhulaiyaa",
