@@ -1,11 +1,10 @@
 import React from 'react'
-import Poster from './Poster';
-import ComedyMovies from './API/IndianComedyMovies';
+import Poster from './Poster'
 
-const Comedy = () => {
+const Container = ({api}) => {
+  const container = api.container;
+  const movies = api.movies;
 
-  const container = ComedyMovies.container;
-  const movies = ComedyMovies.movies;  
 
   return (
     <div className='p-5'>
@@ -17,4 +16,4 @@ const Comedy = () => {
   )
 }
 
-export default Comedy
+export default Container
