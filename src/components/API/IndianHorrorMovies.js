@@ -1,4 +1,5 @@
-{
+const HorrorMovies = {
+    "container":"Horror",
     "movies": [
       {
         "id": 1,
@@ -93,3 +94,4 @@
     ]
   }
   
+  export default HorrorMovies;

@@ -28,7 +28,7 @@ const Header = () => {
 
 
   return (
-    <div className='flex items-center justify-between w-screen px-4 h-2/12 absolute bg-gradient-to-b from-black'>
+    <div className='flex items-center justify-between w-screen px-4 h-2/12 absolute bg-gradient-to-b from-black z-20'>
       <img className='h-16' src={Logo_URL} alt='logo'></img>
       {user && <button onClick={handleSignOut} className='text-white border-solid border-black border-2 py-1 px-2 rounded-md bg-red-700'>Sign Out</button>}
     </div>

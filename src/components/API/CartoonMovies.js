@@ -1,4 +1,5 @@
-{
+const CartoonMovies = {
+    "container":"kids",
     "movies": [
       {
         "id": 1,
@@ -93,3 +94,4 @@
     ]
   }
   
+  export default CartoonMovies

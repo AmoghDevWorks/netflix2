@@ -1,4 +1,5 @@
-{
+const EnglishMovies = {
+    "container":"English",
     "movies": [
       {
         "id": 1,
@@ -143,3 +144,4 @@
     ]
   }
   
+  export default EnglishMovies;

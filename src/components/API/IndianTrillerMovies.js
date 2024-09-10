@@ -1,18 +1,19 @@
-{
+const ThrillerMovies =  {
+    "container":"Thrillers",
     "movies": [
       {
         "id": 1,
         "name": "Drishyam",
-        "trailer_url": "https://www.youtube.com/watch?v=AuuX2j14NBg",
+        "trailer_url": "https://www.youtube.com/embed/AuuX2j14NBg?si=CVOC8UE_wlmN60FY",
         "director": "Nishikant Kamat",
         "theme": "Suspense, family, crime",
         "actors": ["Ajay Devgn", "Tabu", "Shriya Saran"],
         "poster_URL":"https://tse4.mm.bing.net/th?id=OIP.rej-MCZfX01Kfg1tjOO1fAHaKq&pid=Api&P=0&h=180"
       },
-      {
+      { 
         "id": 2,
         "name": "Kahaani",
-        "trailer_url": "https://www.youtube.com/watch?v=jHjxcO9j6Hk",
+        "trailer_url": "https://www.youtube.com/embed/ZOvEe_rd9SI?si=bBnUBjXeGadQYgU8",
         "director": "Sujoy Ghosh",
         "theme": "Mystery, revenge",
         "actors": ["Vidya Balan", "Parambrata Chatterjee", "Nawazuddin Siddiqui"],
@@ -21,7 +22,7 @@
       {
         "id": 3,
         "name": "Andhadhun",
-        "trailer_url": "https://www.youtube.com/watch?v=2iVYI99VGaw",
+        "trailer_url": "https://www.youtube.com/embed/2iVYI99VGaw?si=EaRmXgYBdjWLwXeX",
         "director": "Sriram Raghavan",
         "theme": "Dark comedy, crime, thriller",
         "actors": ["Ayushmann Khurrana", "Tabu", "Radhika Apte"],
@@ -30,7 +31,7 @@
       {
         "id": 4,
         "name": "Talaash",
-        "trailer_url": "https://www.youtube.com/watch?v=8Lz_65VbrFw",
+        "trailer_url": "https://www.youtube.com/embed/M97P3zoUIos?si=GlGyF5Ofqs-W8OHE",
         "director": "Reema Kagti",
         "theme": "Psychological thriller, mystery",
         "actors": ["Aamir Khan", "Kareena Kapoor", "Rani Mukerji"],
@@ -39,7 +40,7 @@
       {
         "id": 5,
         "name": "Darr",
-        "trailer_url": "https://www.youtube.com/watch?v=DFoKnlp2ReM",
+        "trailer_url": "https://www.youtube.com/embed/u_5ov9yZj20?si=CAfxUBYCj3OwcHgX",
         "director": "Yash Chopra",
         "theme": "Psychological thriller, obsession",
         "actors": ["Shah Rukh Khan", "Juhi Chawla", "Sunny Deol"],
@@ -48,7 +49,7 @@
       {
         "id": 6,
         "name": "Badla",
-        "trailer_url": "https://www.youtube.com/watch?v=mSlgu8AQAd4",
+        "trailer_url": "https://www.youtube.com/embed/xHWQiok-ei0?si=OyNoJC_y21a3Pkfx",
         "director": "Sujoy Ghosh",
         "theme": "Mystery, courtroom drama",
         "actors": ["Amitabh Bachchan", "Taapsee Pannu", "Amrita Singh"],
@@ -57,7 +58,7 @@
       {
         "id": 7,
         "name": "NH10",
-        "trailer_url": "https://www.youtube.com/watch?v=7g5PrUytTLw",
+        "trailer_url": "https://www.youtube.com/embed/A9icNqWlylw?si=jPTFzx-PfvyoriAa",
         "director": "Navdeep Singh",
         "theme": "Survival thriller, social issues",
         "actors": ["Anushka Sharma", "Neil Bhoopalam", "Darshan Kumar"],
@@ -66,7 +67,7 @@
       {
         "id": 8,
         "name": "Raat Akeli Hai",
-        "trailer_url": "https://www.youtube.com/watch?v=oZPmUjg24hw",
+        "trailer_url": "https://www.youtube.com/embed/uc78PxSxXMg?si=L4oFd15bkzTowYK_",
         "director": "Honey Trehan",
         "theme": "Crime, murder mystery",
         "actors": ["Nawazuddin Siddiqui", "Radhika Apte", "Shweta Tripathi"],
@@ -75,7 +76,7 @@
       {
         "id": 9,
         "name": "Wazir",
-        "trailer_url": "https://www.youtube.com/watch?v=oCOiwKNMGlA",
+        "trailer_url": "https://www.youtube.com/embed/gdwM7xKOph0?si=9F-RkQEzzFCv8y--" ,
         "director": "Bejoy Nambiar",
         "theme": "Revenge, mystery",
         "actors": ["Amitabh Bachchan", "Farhan Akhtar", "Aditi Rao Hydari"],
@@ -84,7 +85,7 @@
       {
         "id": 10,
         "name": "Ugly",
-        "trailer_url": "https://www.youtube.com/watch?v=MiY4WjUlkwQ",
+        "trailer_url": "https://www.youtube.com/embed/4ougQY2-zpk?si=NizOI4d-rOvftezg",
         "director": "Anurag Kashyap",
         "theme": "Dark thriller, child kidnapping",
         "actors": ["Rahul Bhat", "Ronit Roy", "Tejaswini Kolhapure"],
@@ -93,3 +94,4 @@
     ]
   }
   
+  export default ThrillerMovies;
