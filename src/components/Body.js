@@ -16,7 +16,7 @@ const Body = () => {
   const [errorMessage,seterrorMessage] = useState(null)
 
   useEffect(()=>{
-    onAuthStateChanged(auth, (user) => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
         const {uid,email} = user;
         dispatch(addUser({uid:uid,email:email}))
@@ -26,6 +26,8 @@ const Body = () => {
         navigate('/')
       }
     });
+
+    return () => unsubscribe();
   },[])
 
   const manageSignInSignOut = () =>{
@@ -62,8 +64,6 @@ const Body = () => {
         .then((userCredential) => {
           // Signed in 
           const user = userCredential.user;
-          // console.log(user,"heyy")
-          // ...
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -83,10 +83,10 @@ const Body = () => {
             <p className='mt-2 font-bold text-3xl text-white ml-5 opacity-100 mb-8'>{isSignIn?"Sign In":"Sign Up"}</p>
             <form onSubmit={(e)=>e.preventDefault()} className='flex flex-col text-center'>
               {
-                !isSignIn && <input type="text" placeholder='Full Name' className=' bg-slate-600 border-solid border-black border-2 rounded-md p-2 m-6 w-80'/>
+                !isSignIn && <input type="text" placeholder='Full Name' className=' text-slate-100 bg-slate-600 border-solid border-black border-2 rounded-md p-2 m-6 w-80'/>
               }
-              <input ref={email} className='border-solid border-black border-2 rounded-md p-2 m-6 w-80 bg-slate-600 ' type='email' placeholder='Email' required/>
-              <input ref={password} className='border-solid border-black border-2 rounded-md p-2 m-6 w-80 bg-slate-600 ' type ="password" placeholder='Password' required />
+              <input ref={email} className='border-solid border-black border-2 text-slate-100 rounded-md p-2 m-6 w-80 bg-slate-600 ' type='email' placeholder='Email' required/>
+              <input ref={password} className='border-solid border-black border-2 text-slate-100 rounded-md p-2 m-6 w-80 bg-slate-600 ' type ="password" placeholder='Password' required />
               <p className='m-1 text-red-500'>{errorMessage}</p>
               <button className='border-solid border-black border-2 rounded-md p-2 m-6 w-80 bg-red-600 text-white' onClick={handleButtonClick}>{isSignIn?"Sign In":"Sign Up"}</button>
               <p className='text-white mb-2 cursor-pointer' onClick={manageSignInSignOut}>
@@ -98,4 +98,5 @@ const Body = () => {
   )
 }
 
+// export const user = user;
 export default Body
