@@ -12,7 +12,7 @@ import Movies from './components/Movies';
 
 const Structure  = () =>{
   return(
-        <div>
+        <div className='overflow-x-hidden p-0'>
           <Header />
           <Outlet />
         </div>      

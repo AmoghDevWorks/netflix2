@@ -74,7 +74,7 @@ const Body = () => {
   }
 
   return (
-    <div className='p-2'>
+    <div className=''>
         <Header />
         <div className='absolute -z-10'>
             <img className='h-screen w-screen object-cover' src={Background_URL} alt=''></img>
