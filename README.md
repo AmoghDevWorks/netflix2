@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+This project has been done using the react js
+
+At first, i have create react app using command prompt.  This gives a folder which already consist of some main and important libraries
+
+then i have installed react-router-dom, so that i can navigate from one page to other page 
+
+i have also used redux store, so that i can store the data of logged In user 
+-npm install react-redux
+-npm install @reduxjs/toolkit
+
+
+then I have included firebase to my project and have used some functions provided by the firebase like onAuthStateChanged, createUserWithEmailAndPassword here onAuthStateChanged is used to manage log in and log out of user and createUserWithEmailAndPassword is used for sign In and Sign Up logics 
+
+As i was unable to find API to fetch movie, I have created a own API like thing from where i am fetching my data of each movies
+
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +85,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
