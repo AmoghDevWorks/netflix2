@@ -10,7 +10,7 @@ const Movies = () => {
   const {name,theme,actors,director,trailer_url} = myObject;
 
   return (
-    <div>
+    <div className='relative w-full h-screen '>
       <VideoTitle name={name} theme={theme} actors={actors} director={director} id={id}/>
       <VideoBackground trailer_url={trailer_url}/>
     </div>
