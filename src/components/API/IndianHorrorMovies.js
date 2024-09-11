@@ -4,7 +4,7 @@ const HorrorMovies = {
       {
         "id": 1,
         "name": "Tumbbad",
-        "trailer_url": "https://www.youtube.com/watch?v=sN75MPxgvX8",
+        "trailer_url": "https://www.youtube.com/embed/YGIcZrUBY0k?si=o8ksMUI66Yn3TU45",
         "director": "Rahi Anil Barve",
         "theme": "Mythology, horror, greed",
         "actors": ["Sohum Shah", "Mohammad Samad", "Anita Date"],
@@ -13,7 +13,7 @@ const HorrorMovies = {
       {
         "id": 2,
         "name": "Stree",
-        "trailer_url": "https://www.youtube.com/watch?v=gzeaGcLLl_A",
+        "trailer_url": "https://www.youtube.com/embed/gzeaGcLLl_A?si=9Ann_QjSt-kvOP44",
         "director": "Amar Kaushik",
         "theme": "Horror comedy, folklore",
         "actors": ["Rajkummar Rao", "Shraddha Kapoor", "Pankaj Tripathi"],
@@ -22,7 +22,7 @@ const HorrorMovies = {
       {
         "id": 3,
         "name": "Pari",
-        "trailer_url": "https://www.youtube.com/watch?v=PQKu78NnyvU",
+        "trailer_url": "https://www.youtube.com/embed/PQKu78NnyvU?si=ciCYwfziQ2d3QM1v",
         "director": "Prosit Roy",
         "theme": "Supernatural, horror, thriller",
         "actors": ["Anushka Sharma", "Parambrata Chatterjee", "Rajat Kapoor"],
@@ -40,7 +40,7 @@ const HorrorMovies = {
       {
         "id": 5,
         "name": "1920",
-        "trailer_url": "https://www.youtube.com/watch?v=MFbZICNW2Mw",
+        "trailer_url": "https://www.youtube.com/embed/cLthAiz_PnQ?si=g_-g9u7TWRDRUrch",
         "director": "Vikram Bhatt",
         "theme": "Possession, supernatural",
         "actors": ["Rajneesh Duggal", "Adah Sharma", "Anjori Alagh"],
@@ -49,7 +49,7 @@ const HorrorMovies = {
       {
         "id": 6,
         "name": "Raat",
-        "trailer_url": "https://www.youtube.com/watch?v=v-JimcRAgCo",
+        "trailer_url": "https://www.youtube.com/embed/wLBRkdCGJXs?si=WR7leM3vgBE8t-oi",
         "director": "Ram Gopal Varma",
         "theme": "Supernatural, possession",
         "actors": ["Revathi", "Rohini Hattangadi", "Om Puri"],
@@ -58,7 +58,7 @@ const HorrorMovies = {
       {
         "id": 7,
         "name": "Ek Thi Daayan",
-        "trailer_url": "https://www.youtube.com/watch?v=Ef9Gzhj2WbY",
+        "trailer_url": "https://www.youtube.com/embed/Mc_r3jl1SlA?si=xn5BLzu8ybNocDQM",
         "director": "Kannan Iyer",
         "theme": "Witchcraft, horror, mystery",
         "actors": ["Emraan Hashmi", "Huma Qureshi", "Konkona Sen Sharma"],
@@ -67,7 +67,7 @@ const HorrorMovies = {
       {
         "id": 8,
         "name": "Pizza",
-        "trailer_url": "https://www.youtube.com/watch?v=LMX1_TyDjqc",
+        "trailer_url": "https://www.youtube.com/embed/i5GtgmlWTXE?si=x5LNIVsnuArsb8Mr",
         "director": "Akshay Akkineni",
         "theme": "Supernatural, thriller",
         "actors": ["Akshay Oberoi", "Parvathy Omanakuttan", "Dipannita Sharma"],
@@ -76,7 +76,7 @@ const HorrorMovies = {
       {
         "id": 9,
         "name": "Phobia",
-        "trailer_url": "https://www.youtube.com/watch?v=QkX51ORnXhQ",
+        "trailer_url": "https://www.youtube.com/embed/PQoLd8DFcQM?si=5XIWRd7urc4-uOk1",
         "director": "Pavan Kirpalani",
         "theme": "Psychological horror, agoraphobia",
         "actors": ["Radhika Apte", "Satyadeep Mishra", "Ankur Vikal"],
@@ -85,7 +85,7 @@ const HorrorMovies = {
       {
         "id": 10,
         "name": "Ragini MMS",
-        "trailer_url": "https://www.youtube.com/watch?v=ufmrpu_L8TM",
+        "trailer_url": "https://www.youtube.com/embed/rjVWWD0QlQU?si=HzILSfrUSyJnCHit",
         "director": "Pawan Kripalani",
         "theme": "Supernatural, found footage",
         "actors": ["Rajkummar Rao", "Kainaz Motivala", "Janice"],

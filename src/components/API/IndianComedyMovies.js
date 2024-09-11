@@ -4,7 +4,7 @@ const ComedyMovies = {
       {
         "id": 1,
         "name": "Hera Pheri",
-        "trailer_url": "https://www.youtube.com/watch?v=WkhuUjV3Hww",
+        "trailer_url": "https://www.youtube.com/embed/m1zMmVwWr-M?si=JKveFvCE7t_RxTSh",
         "director": "Priyadarshan",
         "theme": "Comedy of errors, mistaken identities",
         "actors": ["Akshay Kumar", "Paresh Rawal", "Sunil Shetty"],
@@ -13,7 +13,7 @@ const ComedyMovies = {
       {
         "id": 2,
         "name": "Munna Bhai M.B.B.S.",
-        "trailer_url": "https://www.youtube.com/watch?v=F-UjHrG3QkI",
+        "trailer_url": "https://www.youtube.com/embed/6lCGvu-hwX4?si=Mj30ybIaLIsv0U5o",
         "director": "Rajkumar Hirani",
         "theme": "Comedy, social satire",
         "actors": ["Sanjay Dutt", "Arshad Warsi", "Boman Irani"],
@@ -31,7 +31,7 @@ const ComedyMovies = {
       {
         "id": 4,
         "name": "Chupke Chupke",
-        "trailer_url": "https://www.youtube.com/watch?v=VDvezyKQJH4",
+        "trailer_url": "https://www.youtube.com/embed/o_tlw3zQlX8?si=FUaJNlsIcG14TUkZ",
         "director": "Hrishikesh Mukherjee",
         "theme": "Lighthearted humor, family comedy",
         "actors": ["Dharmendra", "Amitabh Bachchan", "Jaya Bhaduri"],
@@ -46,19 +46,19 @@ const ComedyMovies = {
         "actors": ["Aamir Khan", "Salman Khan", "Raveena Tandon"],
         "poster_URL":"https://tse3.mm.bing.net/th?id=OIP.QE86btscIYot_F9weGmVHAHaJ9&pid=Api&P=0&h=180"
       },
-      // {
-      //   "id": 6,
-      //   "name": "Golmaal: Fun Unlimited",
-      //   "trailer_url": "https://www.youtube.com/watch?v=Iq4bV-Y8Z7A",
-      //   "director": "Rohit Shetty",
-      //   "theme": "Misunderstandings and chaos",
-      //   "actors": ["Ajay Devgn", "Sharman Joshi", "Tusshar Kapoor"],
-      //   "poster_URL":"https://tse1.mm.bing.net/th?id=OIP.0bdV10tRboJTRAMNVXD9qAHaKI&pid=Api&P=0&h=180"
-      // },
+      {
+        "id": 6,
+        "name": "Golmaal: Fun Unlimited",
+        "trailer_url": "https://www.youtube.com/embed/3fO1f9TndAM?si=tFUWVAZJSPVMrogk",
+        "director": "Rohit Shetty",
+        "theme": "Misunderstandings and chaos",
+        "actors": ["Ajay Devgn", "Sharman Joshi", "Tusshar Kapoor"],
+        "poster_URL":"https://tse1.mm.bing.net/th?id=OIP.0bdV10tRboJTRAMNVXD9qAHaKI&pid=Api&P=0&h=180"
+      },
       {
         "id": 7,
         "name": "Bhool Bhulaiyaa",
-        "trailer_url": "https://www.youtube.com/watch?v=qEciWLRF_XA",
+        "trailer_url": "https://www.youtube.com/embed/ss-7iGf1xE8?si=GSVEySGtF_7Mr95H",
         "director": "Priyadarshan",
         "theme": "Comedy, horror elements",
         "actors": ["Akshay Kumar", "Vidya Balan", "Shiney Ahuja"],
@@ -67,7 +67,7 @@ const ComedyMovies = {
       {
         "id": 8,
         "name": "Padosan",
-        "trailer_url": "https://www.youtube.com/watch?v=jL8hfpNn1zE",
+        "trailer_url": "https://www.youtube.com/embed/YvY4dqBBbqw?si=zjOSAnKcC-H-R9Oj",
         "director": "Jyoti Swaroop",
         "theme": "Comedy, musical romance",
         "actors": ["Sunil Dutt", "Saira Banu", "Kishore Kumar"],
@@ -76,7 +76,7 @@ const ComedyMovies = {
       {
         "id": 9,
         "name": "Dhamaal",
-        "trailer_url": "https://www.youtube.com/watch?v=qGdlrMZj1co",
+        "trailer_url": "https://www.youtube.com/embed/6hqN9FO3-aI?si=eNFU8qNCI1STHiaX",
         "director": "Indra Kumar",
         "theme": "Slapstick comedy, treasure hunt",
         "actors": ["Sanjay Dutt", "Riteish Deshmukh", "Arshad Warsi"],
@@ -85,7 +85,7 @@ const ComedyMovies = {
       {
         "id": 10,
         "name": "Bheja Fry",
-        "trailer_url": "https://www.youtube.com/watch?v=yEGmwtA5QyU",
+        "trailer_url": "https://www.youtube.com/embed/XyILMg7g6wk?si=W6cKqZ9Uh7ybxTid",
         "director": "Sagar Ballary",
         "theme": "Comedy, simpleton humor",
         "actors": ["Vinay Pathak", "Rajat Kapoor", "Sarika"],

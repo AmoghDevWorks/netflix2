@@ -4,7 +4,7 @@ const EnglishMovies = {
       {
         "id": 1,
         "name": "Inception",
-        "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+        "trailer": "https://www.youtube.com/embed/YoHD9XEInc0?si=Y7D50fXT7HsMXkme",
         "director": "Christopher Nolan",
         "theme": "Science Fiction, Thriller",
         "actors": [
@@ -18,7 +18,7 @@ const EnglishMovies = {
       {
         "id": 2,
         "name": "The Matrix",
-        "trailer": "https://www.youtube.com/watch?v=vKQi3bBA1y8",
+        "trailer": "https://www.youtube.com/embed/vKQi3bBA1y8?si=ohMSmxH7SSGwOW6P",
         "director": "The Wachowskis",
         "theme": "Action, Science Fiction",
         "actors": [
@@ -32,7 +32,7 @@ const EnglishMovies = {
       {
         "id": 3,
         "name": "The Godfather",
-        "trailer": "https://www.youtube.com/watch?v=sY1S34973zA",
+        "trailer": "https://www.youtube.com/embed/UaVTIH8mujA?si=tg0NQZqXcIZbesMT",
         "director": "Francis Ford Coppola",
         "theme": "Crime, Drama",
         "actors": [
@@ -46,7 +46,7 @@ const EnglishMovies = {
       {
         "id": 4,
         "name": "Pulp Fiction",
-        "trailer": "https://www.youtube.com/watch?v=s7EdQ4FqbhY",
+        "trailer": "https://www.youtube.com/embed/tGpTpVyI_OQ?si=0aUeCEiF-MQhNWEm",
         "director": "Quentin Tarantino",
         "theme": "Crime, Drama",
         "actors": [
@@ -60,7 +60,7 @@ const EnglishMovies = {
       {
         "id": 5,
         "name": "Interstellar",
-        "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+        "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E?si=R1ZxM9BtQkR4GkGZ",
         "director": "Christopher Nolan",
         "theme": "Science Fiction, Adventure",
         "actors": [
@@ -74,7 +74,7 @@ const EnglishMovies = {
       {
         "id": 6,
         "name": "The Dark Knight",
-        "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+        "trailer": "https://www.youtube.com/embed/EXeTwQWrcwY?si=J11D9OlN2-uTNuQ4",
         "director": "Christopher Nolan",
         "theme": "Action, Crime, Drama",
         "actors": [
@@ -88,7 +88,7 @@ const EnglishMovies = {
       {
         "id": 7,
         "name": "Fight Club",
-        "trailer": "https://www.youtube.com/watch?v=SUXWAEX2jlg",
+        "trailer": "https://www.youtube.com/embed/D3Yw9Yc1YmY?si=VnMTQ-FJUaPGSzJh",
         "director": "David Fincher",
         "theme": "Drama, Thriller",
         "actors": [
@@ -102,7 +102,7 @@ const EnglishMovies = {
       {
         "id": 8,
         "name": "Forrest Gump",
-        "trailer": "https://www.youtube.com/watch?v=bLvqoHBptjg",
+        "trailer": "https://www.youtube.com/embed/bLvqoHBptjg?si=nIuqpzHQxtaYJ7Nw",
         "director": "Robert Zemeckis",
         "theme": "Drama, Romance",
         "actors": [
@@ -116,7 +116,7 @@ const EnglishMovies = {
       {
         "id": 9,
         "name": "The Shawshank Redemption",
-        "trailer": "https://www.youtube.com/watch?v=6hB3S9bIaco",
+        "trailer": "https://www.youtube.com/embed/PLl99DlL6b4?si=9ptAHN7pukr3NkRL",
         "director": "Frank Darabont",
         "theme": "Drama",
         "actors": [
@@ -130,7 +130,7 @@ const EnglishMovies = {
       {
         "id": 10,
         "name": "Gladiator",
-        "trailer": "https://www.youtube.com/watch?v=owK1qxDselE",
+        "trailer": "https://www.youtube.com/embed/P5ieIbInFpg?si=JvXOv-ugyvwt3ics",
         "director": "Ridley Scott",
         "theme": "Action, Drama",
         "actors": [

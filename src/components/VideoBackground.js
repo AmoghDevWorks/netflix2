@@ -4,9 +4,10 @@ const VideoBackground = ({trailer_url}) => {
 
   return (
     <div className='-z-10 w-full h-full overflow-x-hidden'>
-      <iframe className='w-screen h-full' src={trailer_url+"?&autoplay=1&mute=1"} title="YouTube video player" frameborder="0" allow="autoplay; fullscreen;" allowfullscreen loop></iframe>
+      <iframe className='w-screen h-full' src={trailer_url+"?&autoplay=1&mute=1"} title="YouTube video player" allow="autoplay; fullscreen;"  loop></iframe>
     </div>
   )
 }
 
 export default VideoBackground
+
