@@ -8,6 +8,7 @@ import Browse from './components/Browse';
 import Error from './components/Error';
 import { Provider } from 'react-redux';
 import appStore from './components/utils/appStore'
+import Movies from './components/Movies';
 
 const Structure  = () =>{
   return(
@@ -31,6 +32,10 @@ export const appRouter = createBrowserRouter([
         {
           path:"/browse",
           element:<Browse />
+        },
+        {
+          path:"/browse/:movieData",
+          element:<Movies />
         }
       ],
       errorElement:<Error />
