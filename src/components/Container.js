@@ -7,7 +7,7 @@ const Container = ({api}) => {
 
 
   return (
-    <div className='p-5'>
+    <div className='p-1 lg:p-5 overflow-x-scroll lg:overflow-x-hidden'>
       <p className='font-mono font-bold text-3xl'>{container}</p>
       <div className='h-70 w-auto flex px-1'>
         {movies.map((movie)=>(<Poster key={movie.name} data={movie} />))}
